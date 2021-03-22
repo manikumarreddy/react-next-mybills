@@ -15,7 +15,7 @@ export default function Home({primeUser}) {
         <title>My Bill</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={styles.main}>
         {!session && (
           <div>
             <button className="btn btn-success" onClick={signIn}>Sign In</button>
